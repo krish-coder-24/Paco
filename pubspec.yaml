@@ -1,0 +1,41 @@
+name: paco
+description: A Random Username genrator App
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  firebase_auth: ^4.6.3
+  community_material_icon: ^5.9.55
+  flutterfire_ui: ^0.4.3+20
+  flutter_riverpod: ^2.3.6
+  firebase_core: ^2.14.0
+  google_sign_in: ^5.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+    color: "#B4DEF3"
+    color_dark: "#14263D"
+    image: assets/Paco.png
+    image_dark: assets/Paco.png
+    android: true
+    ios: true
+
+flutter:
+  uses-material-design: true
+
+
